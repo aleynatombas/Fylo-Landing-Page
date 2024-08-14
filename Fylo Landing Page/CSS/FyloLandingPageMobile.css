@@ -1,0 +1,136 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    padding: 3% 5%;
+    
+}
+header img{
+    width: 30%;
+}
+header a{
+    text-decoration: none;
+    color:black;
+    opacity: 0.7;
+    margin-left:25px ;
+    font-weight: 700;
+    font-size: small;
+    font-family: 'Raleway';
+}
+article .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+article .content div {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+article img{
+    width: 55%;
+}
+article .content h1{
+    margin-top: 35px;
+    font-size: x-large;
+}
+article .content  p{
+    text-align-last: center;
+}
+article .content input{
+    padding: 3% 4%;
+    width: 300px;
+    margin-bottom: 5%;
+}
+article .content button{
+    width: 300px;
+    padding: 3% 4%;
+    background-color: #6B9BFF;
+    color:azure;
+    border: 2px solid #6B9BFF ;
+}
+.article-img{
+    position: relative;
+    top: 5px;
+    z-index: -1;
+}
+.article-two p{
+    text-align-last: center;
+}
+.article-three div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.article-three input{
+    padding: 2% 4%;
+    width: 350px;
+}
+.article-three button{
+    width: 350px;
+    padding: 2% 4%;
+    margin-top: 3%;
+    background-color: #6B9BFF;
+    color:azure;
+    border: 2px solid #6B9BFF ;
+}
+.article-three p {
+    font-size: large;
+    opacity: 0.8;
+    margin-top: 5%;
+    text-align-last: center;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #07043B;
+    color: #ffffff;
+    width: 100%;
+    padding: 45px 0 45px 100px;  
+}
+footer img{
+    margin-bottom: 5%;
+    width: 40%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.communication{
+    margin-bottom: 15px;
+}
+.communication div{
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    margin-bottom: 5%;
+    color: antiquewhite;
+}
+nav{
+    display: flex;
+    flex-direction:column;
+    color: #d6d4d4;
+    margin-bottom: 30px;
+    text-align-last: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: medium;
+}
+
+.web{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}

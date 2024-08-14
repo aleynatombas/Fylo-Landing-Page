@@ -1,0 +1,152 @@
+article{
+    display: flex;
+    flex-direction:column-reverse;
+    margin:5% 0;
+    padding: 0 !important;
+
+}
+
+article img{
+    width: 55%;
+}
+article .content h1{
+    margin-top: 35px;
+    font-size: x-large;
+}
+
+article .content  p{
+    margin: 5% 0;
+    opacity: 0.8;
+}
+
+article .content input{
+    padding: 3% 4%;
+    width: 100%;
+    margin-bottom: 5%;
+}
+article .content button{
+    width: 100%;
+    padding: 3% 4%;
+    background-color: #6B9BFF;
+    color:azure;
+    border: 2px solid #6B9BFF ;
+}
+
+
+
+
+.article-img{
+    position: relative;
+    top: 20px;
+    z-index: -1;
+}
+.article-two{
+    background-color: #F9F8FE;
+    padding: 1% 5% 100px 5% !important;
+    margin:0;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-two .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.article-two a{
+    color: #4ea795;
+    text-decoration:none;
+    font-size: larger;
+}
+.article-two .person img{
+    width: 20%; 
+     border-radius:  100%;
+}
+.article-two p{
+    font-size:large;
+    margin: 5% 0 8% 0 !important;
+    opacity: 0.7 !important;
+}
+
+
+.article-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #575989;
+    padding: 5% !important;
+    color: #F9F8FE;
+    margin: 0;
+}
+.article-three div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.article-three input{
+    padding: 2% 4%;
+    width: 350px;
+}
+.article-three button{
+    width: 350px;
+    padding: 2% 4%;
+    margin-top: 3%;
+    background-color: #6B9BFF;
+    color:azure;
+    border: 2px solid #6B9BFF ;
+}
+.article-three p {
+    font-size: large;
+    opacity: 0.8;
+    margin-top: 3%;
+}
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #07043B;
+    color: #ffffff;
+    width: 100%;
+    padding: 45px 0 45px 100px;  
+}
+footer img{
+    margin-bottom: 5%;
+    width: 40%;
+}
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.communication div{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-bottom: 5%;
+    color: antiquewhite;
+}
+nav{
+    display: flex;
+    flex-direction:column;
+    color: #d6d4d4;
+    margin-bottom: 5%;
+}
+nav a{
+    text-decoration: none;
+    font-size: medium;
+}
+nav a:visited{
+    color: #d6d4d4;
+}
+.web{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+}
